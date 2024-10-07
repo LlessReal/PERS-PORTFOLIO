@@ -115,9 +115,11 @@ footer {
     padding: 10px;
     justify-content: center;
     align-items: center;
+    
 }
 blockquote {
     text-indent: -40px;
+    margin-top: 0px;
 }
 button {
     background-image: linear-gradient(to right, red,gray,red);
@@ -136,8 +138,7 @@ button:hover {
     cursor: pointer;
 }
 a {
-    text-decoration: none;
-    
+    text-decoration: none;  
 }
 a.div {
     flex: 1 0 0;
