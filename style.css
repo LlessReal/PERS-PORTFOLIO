@@ -39,6 +39,7 @@ main {
     box-shadow: 5px 5px 10px gray, 0 0 20px yellow, 0 0 40px orange; 
 }
 .contact {
+    flex: 1;
     display: flex;
     flex-direction: column;
     flex: 1 0 auto;
@@ -58,38 +59,46 @@ main {
     font-size: 30px;
 }
 .foursources {
-    flex: 1 1 auto;
+    flex: 1 1 50%;
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
 }
 
-.foursources h5 {
-    color: white;
-    font-size: 20px;
-    text-shadow: 0 0 10px;
-}
-
-.foursources div {
-    flex: 1 0 ;
+.foursources div
+{
+    flex: 1 0 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-.culturalsemiotics {
-    background-image: url("https://www.sevanoland.com/uploads/1/1/8/0/118081022/x635802178006635907-1295440718-edl-logo1-imgopt1000x70-720x400-jpg-pagespeed-ic-5mohnns-bu_orig.jpg");
-    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 7.5px 7.5px 15px 5px;
+    font-family: "impact", sans-serif;
+    padding: 20px;
+    transition: 0.5s;
 }
 
+.foursources div:hover {
+    
+}
+
+.culturalsemiotics h5.test,
+.brand h5.test,
+.identifyingbias h5.test { 
+    color: white;
+    font-size: 40px;
+    text-shadow: 0 0 10px;
+}
+
+.culturalsemiotics {
+    background-image: url("https://www.sevanoland.com/uploads/1/1/8/0/118081022/x635802178006635907-1295440718-edl-logo1-imgopt1000x70-720x400-jpg-pagespeed-ic-5mohnns-bu_orig.jpg")
+}
 .identifyingbias {
     background-image: url("https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2014/5/12/1399913833176/Information-overload-wisd-011.jpg?width=620&dpr=2&s=none");
-    padding: 40px;
 }
-
 .brand {
     background-image: url("https://graduate.northeastern.edu/resources/wp-content/uploads/sites/4/2017/06/At-Work-Hero.jpg");
-    padding: 40px;
 }
 
 footer {
