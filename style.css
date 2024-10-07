@@ -1,10 +1,19 @@
-body {
+body,.body2,.body3,.body4 {
     background-image: linear-gradient(to right, lightblue, rgb(139, 139, 216));
     margin: 0;
     display: flex;
     flex-direction: column;
 }
 
+.body2 {
+    background-image: url("https://whyy.org/wp-content/uploads/2022/02/reading-teminal-market-pandemic-AP-01-022222.jpg");
+}
+.body3 {
+    background-image: url("https://i.ytimg.com/vi/kril_AbZt_w/maxresdefault.jpg");
+}
+.body4 {
+    background-image: url("https://www.postmediasolutions.com/wp-content/uploads/2022/03/linkedin-personal-branding-1024x536.png");   
+}
 main {
     margin: 30px;
     padding: 20px;
@@ -146,4 +155,7 @@ a.div {
 
 h3 {
     text-align: center;
+    font-family: "impact";
+    font-size: 20px;
+    margin: 0px;
 }
