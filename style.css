@@ -16,6 +16,12 @@ main {
     justify-content: center;
 }
 
+main.altpages {
+    flex-direction: column;
+    width: auto;
+    height: 50%;
+}
+
 .pfpside {
     display: flex;
     flex-direction: column;
@@ -73,22 +79,22 @@ main {
     align-items: center;
     justify-content: center;
     border-radius: 5px;
-    box-shadow: 7.5px 7.5px 15px 5px;
+    box-shadow: 7.5px 7.5px 15px 5px black;
     font-family: "impact", sans-serif;
     padding: 20px;
     transition: 0.5s;
 }
 
 .foursources div:hover {
-    
+    filter: hue-rotate(90deg);
+    box-shadow: 7.5px 7.5px 15px 5px black, 7.5px 7.5px 30px 5px yellow ;
 }
 
-.culturalsemiotics h5.test,
-.brand h5.test,
-.identifyingbias h5.test { 
+h5.test { 
     color: white;
     font-size: 40px;
     text-shadow: 0 0 10px;
+    text-align: center;
 }
 
 .culturalsemiotics {
@@ -108,4 +114,27 @@ footer {
     padding: 10px;
     justify-content: center;
     align-items: center;
+}
+blockquote {
+    text-indent: -40px;
+}
+button {
+    background-image: linear-gradient(to right, red,gray,red);
+    color:white;
+    border: groove 5px gray;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: impact;
+    font-size: 40px;
+    text-shadow: 0 0 10px;
+    margin: 10px;
+    transition: 0.5s;
+}
+button:hover {
+    filter: hue-rotate(90deg);
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    
 }
